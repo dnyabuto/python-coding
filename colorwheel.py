@@ -1,6 +1,9 @@
 import turtle
 
-def bonus():
+# this in a pratical trial on using turtle to create
+# something colorful
+
+def colorWheel():
     def drawOuterCircle(radius):
         turtle.penup()
         turtle.setpos(0,-radius)
@@ -84,4 +87,4 @@ def bonus():
     turtle.exitonclick()
 
 
-bonus()
+colorWheel()
